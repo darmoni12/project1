@@ -4,12 +4,12 @@ using System.Text;
 
 namespace BE
 {
-    class HostingUnit
+    public class HostingUnit
     {
         int HostingUnitKey;
         Host Owner;
         string HostingUnitName;
-        Diary;
+        bool [,] Diary;
         public override string ToString()
         {
             return base.ToString();//
