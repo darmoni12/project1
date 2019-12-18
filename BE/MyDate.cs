@@ -11,6 +11,7 @@ namespace BE
         public int Year { get; set; }
         public int Month { get; set; }
         public int Day { get; set; }
+
        
         /// <summary>
         /// ctor for string
@@ -54,6 +55,7 @@ namespace BE
         {
             return Day + "." + Month + "." + Year;
         }
+
         /// <summary>
         /// add num of days to the MyDate object
         /// </summary>
@@ -82,6 +84,7 @@ namespace BE
             this.Year = years;
 
         }
+
         /// <summary>
         /// compare to with icomparable interface
         /// </summary>

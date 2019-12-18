@@ -16,7 +16,7 @@ namespace BE
         public Aproved CollectionClearance;
         public override string ToString()
         {
-            return base.ToString();//
+            return base.ToString();//not imlemented yet
         }
     }
 }

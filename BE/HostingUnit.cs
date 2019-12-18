@@ -12,7 +12,7 @@ namespace BE
         internal Diary Diary { get; set ; }
         public override string ToString()
         {
-            return base.ToString();//
+            return base.ToString();//not imlemented yet
         }
     }
 }

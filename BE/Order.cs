@@ -14,7 +14,7 @@ namespace BE
         public MyDate OrderDate { get; set; }
         public override string ToString()
         {
-            return base.ToString();//
+            return base.ToString();//not imlemented yet
         }
     }
 }
