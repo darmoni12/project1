@@ -6,10 +6,10 @@ namespace BE
 {
     public class HostingUnit
     {
-        int HostingUnitKey;
-        Host Owner;
-        string HostingUnitName;
-        bool [,] Diary;
+        public int HostingUnitKey { get; set; }
+        public Host Owner { get; set; }
+        public string HostingUnitName { get; set; }
+        internal Diary Diary { get; set ; }
         public override string ToString()
         {
             return base.ToString();//

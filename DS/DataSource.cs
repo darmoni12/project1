@@ -10,8 +10,8 @@ namespace DS
     class DataSource
     {
         static List<GuestRequest> requestlist;
-        static List<GuestRequest> requestlist;
-        static List<GuestRequest> requestlist;
+        //static List<GuestRequest> requestlist;
+        //static List<GuestRequest> requestlist;
 
     }
 }

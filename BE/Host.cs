@@ -6,12 +6,12 @@ namespace BE
 {
     public class Host
     {
-        int HostKey;
-        string PrivateName;
-        string FamilyName;
-        int PhoneNumber;
-        string MailAddress;
-        BankAccount HostBankAccount;
+        public int HostKey { get; set; }
+        public string PrivateName { get; set; }
+        public string FamilyName { get; set; }
+        public int PhoneNumber { get; set; }
+        public string MailAddress { get; set; }
+        BankAccount HostBankAccount { get; set; }
         Aproved CollectionClearance;
         public override string ToString()
         {
