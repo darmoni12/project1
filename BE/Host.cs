@@ -8,11 +8,12 @@ namespace BE
     {//
         public int HostKey { get; set; }
         public string PrivateName { get; set; }
+        
         public string FamilyName { get; set; }
-        public int PhoneNumber { get; set; }
+        public string PhoneNumber { get; set; }
         public string MailAddress { get; set; }
-        BankAccount HostBankAccount { get; set; }
-        Aproved CollectionClearance;
+        public BankAccount HostBankAccount { get; set; }
+        public Aproved CollectionClearance;
         public override string ToString()
         {
             return base.ToString();//

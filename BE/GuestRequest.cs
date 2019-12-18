@@ -8,19 +8,19 @@ namespace BE
         public string PrivateName { get; set; }
         public string FamilyName { get; set; }
         public string MailAddress { get; set; }
-        OrderStatus Status;
+        public OrderStatus Status;
         internal MyDate RegistrationDate { get; set; }
         internal MyDate EntryDate { get; set; }
         internal MyDate ReleaseDate { get; set; }
-        Area Area;
+        public Area Area;
         public string SubArea { get; set; }
-        HostingType Type;
+        public HostingType Type;
         public int Adults { get; set; }
         public int Children { get; set; }
-        Require Pool;
-        Require Jacuzzi;
-        Require Garden;
-        Require ChildrensAttractions;
+        public Require Pool;
+        public Require Jacuzzi;
+        public Require Garden;
+        public Require ChildrensAttractions;
         public override string ToString()
         {
             return base.ToString();//

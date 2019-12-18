@@ -9,9 +9,9 @@ namespace BE
         public int HostingUnitKey { get; set; }
         public int GuestRequestKey { get; set; }
         public int OrderKey { get; set; }
-        OrderStatus Status;
-        public DateTime CreateDate { get; set; }
-        public DateTime OrderDate { get; set; }
+        public OrderStatus Status;
+        public MyDate CreateDate { get; set; }
+        public MyDate OrderDate { get; set; }
         public override string ToString()
         {
             return base.ToString();//

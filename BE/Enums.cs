@@ -4,23 +4,23 @@ using System.Text;
 
 namespace BE
 {
-    enum Area
+    public enum Area
     {
         All, North, South, Center, Jerusalem
     }
-    enum HostingType
+    public enum HostingType
     {
         Zimmer, Hotel, Camping
     }
-    enum Require
+    public enum Require
     {
         Necessary, Possible, NotInterested
     }
-    enum Aproved
+    public enum Aproved
     {
         Yes, No
     }
-    enum OrderStatus
+    public enum OrderStatus
     {
         Not_Treated, MailSent, NoResponsCustomerClose, ResponsCustomerClose
     }

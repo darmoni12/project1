@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace BE
 {
-    class MyDate : IComparable
+    public class MyDate : IComparable
     {
         public int Year { get; set; }
         public int Month { get; set; }

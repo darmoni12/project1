@@ -14,8 +14,8 @@ namespace DAL
         void deleteHostingUnit(HostingUnit unit);
         void updateHostingUnit(HostingUnit unit);
 
-        void addOrder(HostingUnit unit);
-        void updateOrder(HostingUnit unit);
+        void addOrder(Order order);
+        void updateOrder(Order order);
 
         List<HostingUnit> getAllUnits();
         //List<> getAllCustomer();
