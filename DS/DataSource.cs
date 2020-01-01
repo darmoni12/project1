@@ -7,9 +7,9 @@ using BE;
 
 namespace DS
 {
-    class DataSource
+    public class DataSource
     {
-        static List<GuestRequest> requestlist = new List<GuestRequest>()
+        public static List<GuestRequest> requestlist = new List<GuestRequest>()
         {
             new GuestRequest()
             {
@@ -64,7 +64,7 @@ namespace DS
             }
         };
 
-        static List<Order> orders = new List<Order>()
+        public static List<Order> orders = new List<Order>()
         {
             new Order()
             {
@@ -94,7 +94,7 @@ namespace DS
                 Status= OrderStatus.MailSent
             }
         };
-        static List<HostingUnit> hostingUnits = new List<HostingUnit>()
+        public static List<HostingUnit> hostingUnits = new List<HostingUnit>()
         {
             new HostingUnit()
             {
@@ -107,15 +107,12 @@ namespace DS
                     PrivateName="mendi",
                     PhoneNumber="0524408400",
                     MailAddress="asssss@mail.com",
-                    HostBankAccount=new BankAccount()
+                    BankAccountNumber=9654,
+                    BankBranchDetails=new BankBranch()
                     {
-                        BankAccountNumber=222,
-                        BankName="dis",
-                        BankNumber=12,
-                        BranchAddress="aasd street",
-                        BranchCity="jeruas",
-                        BranchNumber=121212
-                    },
+                        
+                    }
+                    ,
                     HostKey=55555
                 }
             

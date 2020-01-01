@@ -18,9 +18,9 @@ namespace DAL
         void updateOrder(Order order);
 
         List<HostingUnit> getAllUnits();
-        //List<> getAllCustomer();
+        List<GuestRequest> getAllGuestRequest();
         List<Order> getAllOrder();
 
-        //List<> getAllBranches();
+        List<BankBranch> getAllBranches();
     }
 }
